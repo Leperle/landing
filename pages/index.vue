@@ -4,7 +4,7 @@
 		<Features />
 		<Roadmap />
 		<Listing />
-		<CallToAction />
+<!--		<CallToAction />-->
 	</div>
 </template>
 
@@ -12,9 +12,7 @@
 export default {
 	layout: 'default',
 	mounted() {
-		if (process.client) {
-			this.initGrid();
-		}
+		this.initGrid();
 	}
 }
 </script>
