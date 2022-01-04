@@ -34,7 +34,7 @@
 					<div class="flex justify-center mt-6 sm:justify-between">
 						<p class="text-gray-300 text-lg font-bold text-pink-500 mb-3 truncate">
 							Total Raised Funds:
-							$905,000.00
+							$905,393.49
 						</p>
 					</div>
 <!--					<div class="w-full bg-gray-400 mb-6 rounded-full h-2.5">-->
