@@ -59,6 +59,10 @@
 					<div class="mt-12 md:mt-0">
 						<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Useful Links</h3>
 						<ul role="list" class="mt-4 space-y-4">
+
+							<li>
+								<a href="https://forms.gle/jypcaJgvPgrkYmRDA" target="_blank" class="text-base text-gray-500 hover:text-gray-300">Apply for IDO</a>
+							</li>
 							<li>
 								<NuxtLink :to="{path: '/', hash: 'features'}" v-scroll-to="{el: '#features'}" class="text-base text-gray-500 hover:text-gray-300">Features</NuxtLink>
 							</li>
@@ -66,7 +70,7 @@
 								<NuxtLink :to="{path: '/', hash: 'roadmap'}" v-scroll-to="{el: '#roadmap'}" class="text-base text-gray-500 hover:text-gray-300">Roadmap</NuxtLink>
 							</li>
 							<li>
-								<a href="https://app.parasol.finance/presale" target="_blank" class="text-base text-gray-500 hover:text-gray-300">Pre-sale</a>
+								<a href="https://app.parasol.finance/" target="_blank" class="text-base text-gray-500 hover:text-gray-300">Open Application</a>
 							</li>
 						</ul>
 					</div>
