@@ -79,8 +79,8 @@
 								Parasol $PSOL Token Listing
 							</p>
 							<div class="ml-2 flex-shrink-0 flex">
-								<p class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-green-800">
-									In Progress
+								<p class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+									Done
 								</p>
 							</div>
 						</div>
