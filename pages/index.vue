@@ -10,9 +10,6 @@
 
 <script>
 export default {
-	layout: 'default',
-	mounted() {
-		this.initGrid();
-	}
+	layout: 'default'
 }
 </script>
