@@ -66,7 +66,7 @@
 				</div>
 			</div>
 			<div class="mt-20 sm:mt-24 lg:mt-0 lg:col-span-6 hidden lg:flex justify-end">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-full p-20 bouncing" style="position: absolute; width: 580px; top: 110px;" viewBox="0 0 545.936 628.168">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-full p-20" style="position: absolute; width: 580px; top: 110px;" viewBox="0 0 545.936 628.168">
 					<defs>
 						<linearGradient id="linear-gradient" x1="1.204" y1="-0.074" x2="0.306" y2="1.04" gradientUnits="objectBoundingBox">
 							<stop offset="0" stop-color="#7939ff"/>
@@ -126,10 +126,5 @@ export default {
 #hero
 {
 	min-height: calc(100vh - 20vh - 21vh);
-}
-
-.bouncing
-{
-	object-fit: cover;
 }
 </style>
