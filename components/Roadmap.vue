@@ -1,5 +1,5 @@
 <template>
-	<section class="mt-5 mb-10 lg:mt-10 lg:mb-20 bg-gradient-to-r from-purple-500 to-pink-500 text-center pt-10 pb-12 lg:pt-20 lg:pb-28 text-white">
+	<section class="mt-5 mb-10 lg:mt-10 lg:mb-20 bg-gradient-primary text-center pt-10 pb-12 lg:pt-20 lg:pb-28 text-white">
 		<a id="roadmap" class="mt-2 text-3xl font-extrabold text-white-900 tracking-tight sm:text-4xl">
 			Our Roadmap
 		</a>

@@ -1,5 +1,5 @@
 <template>
-	<div class="relative bg-pink-600- bg-gradient-to-r from-purple-500 to-pink-600">
+	<div class="relative bg-pink-600- bg-gradient-primary">
 		<div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
 			<div class="text-center text-sm lg:text-base">
 				<p class="font-medium text-white">

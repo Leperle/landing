@@ -1,23 +1,29 @@
 <template>
 	<section id="hero" class="mt-8">
 		<div class="mx-auto max-w-7xl px-5 grid grid-cols-12 gap-0">
+			<div class="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block" style="z-index: -1;">
+				<svg class="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+					<defs>
+						<pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+							<rect x="0" y="0" width="4" height="4" class="text-indigo-900" fill="currentColor" />
+						</pattern>
+					</defs>
+					<rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+				</svg>
+				<svg class="absolute top-full transform -translate-y-1/3 -translate-x-1/3 xl:-translate-y-1/2" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+					<defs>
+						<pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+							<rect x="0" y="0" width="4" height="4" class="text-indigo-900 text-opacity-60" fill="currentColor" />
+						</pattern>
+					</defs>
+					<rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+				</svg>
+			</div>
 			<div class="col-span-12 lg:col-span-6 text-center lg:text-left lg:flex lg:items-center">
 				<div class="pb-3">
 					<a href="https://solana.com/" target="_blank" class="inline-flex items-center text-white bg-pink-600 bg-opacity-0 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-						<svg style="height: 30px;" fill="none" viewBox="0 0 96 84" xmlns="http://www.w3.org/2000/svg">
-							<g clip-path="url(#clip0)">
-								<path clip-rule="evenodd" d="M17.368 64.052C17.669 63.7209 18.0359 63.4563 18.445 63.2752C18.8541 63.094 19.2966 63.0003 19.744 63L93.056 63.06C93.3682 63.0606 93.6735 63.1519 93.9349 63.3228C94.1962 63.4936 94.4023 63.7367 94.5281 64.0224C94.6539 64.3081 94.694 64.6242 94.6436 64.9323C94.5932 65.2404 94.4544 65.5273 94.244 65.758L78.632 82.948C78.3308 83.2793 77.9637 83.5441 77.5542 83.7252C77.1447 83.9064 76.7018 84 76.254 84L2.94405 83.94C2.63185 83.9394 2.32654 83.8481 2.06523 83.6772C1.80391 83.5064 1.59783 83.2634 1.47202 82.9776C1.3462 82.6919 1.30607 82.3758 1.35649 82.0677C1.40691 81.7596 1.54572 81.4727 1.75605 81.242L17.368 64.052ZM94.244 49.742C94.4544 49.9727 94.5932 50.2596 94.6436 50.5677C94.694 50.8758 94.6539 51.1919 94.5281 51.4776C94.4023 51.7634 94.1962 52.0064 93.9349 52.1772C93.6735 52.3481 93.3682 52.4394 93.056 52.44L19.746 52.5C19.2983 52.5 18.8554 52.4064 18.4459 52.2252C18.0364 52.0441 17.6693 51.7793 17.368 51.448L1.75605 34.248C1.54572 34.0173 1.40691 33.7304 1.35649 33.4223C1.30607 33.1142 1.3462 32.7981 1.47202 32.5124C1.59783 32.2266 1.80391 31.9836 2.06523 31.8128C2.32654 31.6419 2.63185 31.5506 2.94405 31.55L76.256 31.49C76.7035 31.4903 77.146 31.584 77.5551 31.7652C77.9642 31.9463 78.3311 32.2109 78.632 32.542L94.244 49.742ZM17.368 1.052C17.669 0.720916 18.0359 0.456328 18.445 0.275176C18.8541 0.0940234 19.2966 0.000298083 19.744 0L93.056 0.06C93.3682 0.0606347 93.6735 0.151917 93.9349 0.322758C94.1962 0.493599 94.4023 0.736647 94.5281 1.02238C94.6539 1.30811 94.694 1.62423 94.6436 1.93234C94.5932 2.24044 94.4544 2.52728 94.244 2.758L78.632 19.948C78.3308 20.2793 77.9637 20.5441 77.5542 20.7252C77.1447 20.9064 76.7018 21 76.254 21L2.94405 20.94C2.63185 20.9394 2.32654 20.8481 2.06523 20.6772C1.80391 20.5064 1.59783 20.2634 1.47202 19.9776C1.3462 19.6919 1.30607 19.3758 1.35649 19.0677C1.40691 18.7596 1.54572 18.4727 1.75605 18.242L17.368 1.052Z" fill="url(#paint0_linear)" fill-rule="evenodd" />
-							</g>
-							<defs>
-								<linearGradient id="paint0_linear" gradientUnits="userSpaceOnUse" x1="4.16805" x2="91.8321" y1="85.832" y2="-1.832">
-									<stop stop-color="#9945FF" />
-									<stop offset="0.2" stop-color="#7962E7" />
-									<stop offset="1" stop-color="#00D18C" />
-								</linearGradient>
-								<clipPath id="clip0">
-									<rect fill="white" height="84" width="96" />
-								</clipPath>
-							</defs>
+						<svg class="h-7" viewBox="0 0 96 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M95.5053 67.8049L79.658 84.8288C79.3134 85.1986 78.8966 85.4934 78.4334 85.6949C77.9703 85.8964 77.4706 86.0003 76.9656 86H1.8398C1.48134 86 1.13068 85.8951 0.830924 85.6982C0.531164 85.5013 0.295357 85.221 0.152475 84.8917C0.00959266 84.5624 -0.03414 84.1985 0.0266501 83.8446C0.0874403 83.4908 0.250105 83.1624 0.494658 82.8999L16.3543 65.876C16.6979 65.5072 17.1134 65.2129 17.5751 65.0115C18.0368 64.81 18.5349 64.7056 19.0385 64.7048H94.1602C94.5187 64.7048 94.8693 64.8097 95.1691 65.0066C95.4688 65.2035 95.7046 65.4838 95.8475 65.8131C95.9904 66.1424 96.0341 66.5063 95.9734 66.8601C95.9126 67.214 95.7499 67.5423 95.5053 67.8049ZM79.658 33.5236C79.3134 33.1538 78.8966 32.859 78.4334 32.6575C77.9703 32.456 77.4706 32.3521 76.9656 32.3524H1.8398C1.48134 32.3524 1.13068 32.4573 0.830924 32.6542C0.531164 32.8511 0.295357 33.1314 0.152475 33.4607C0.00959266 33.79 -0.03414 34.1539 0.0266501 34.5078C0.0874403 34.8616 0.250105 35.19 0.494658 35.4525L16.3543 52.4764C16.6979 52.8452 17.1134 53.1394 17.5751 53.3409C18.0368 53.5424 18.5349 53.6468 19.0385 53.6476H94.1602C94.5187 53.6476 94.8693 53.5427 95.1691 53.3458C95.4688 53.1489 95.7046 52.8686 95.8475 52.5393C95.9904 52.21 96.0341 51.8461 95.9734 51.4922C95.9126 51.1384 95.7499 50.81 95.5053 50.5475L79.658 33.5236ZM1.8398 21.2952H76.9656C77.4706 21.2955 77.9703 21.1917 78.4334 20.9902C78.8966 20.7887 79.3134 20.4938 79.658 20.124L95.5053 3.1001C95.7499 2.83758 95.9126 2.50922 95.9734 2.15538C96.0341 1.80153 95.9904 1.4376 95.8475 1.10831C95.7046 0.779013 95.4688 0.498699 95.1691 0.301804C94.8693 0.10491 94.5187 1.21255e-05 94.1602 0L19.0385 0C18.5349 0.000858433 18.0368 0.105251 17.5751 0.306715C17.1134 0.508179 16.6979 0.802426 16.3543 1.17124L0.498747 18.1951C0.25443 18.4574 0.0918367 18.7854 0.0309086 19.1389C-0.0300194 19.4923 0.0133662 19.8559 0.155745 20.1851C0.298123 20.5142 0.533305 20.7945 0.832447 20.9918C1.13159 21.189 1.48169 21.2944 1.8398 21.2952Z" fill="white"/>
 						</svg>
 						<span class="ml-4 text-sm">Built on Solana Blockchain</span>
 						<svg class="ml-2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -26,13 +32,13 @@
 					</a>
 					<h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-7 lg:text-4xl xl:text-6xl">
 						<span class="md:block">The First Community</span>
-						<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600 leading-normal whitespace-nowrap md:block"><span class="text-white">Governed</span> IDO Platform.</span>
+						<span class="text-transparent bg-clip-text bg-gradient-primary leading-normal whitespace-nowrap md:block"><span class="text-white">Governed</span> IDO Platform</span>
 					</h1>
 					<p class="mt-7 text-base text-gray-300 font-medium text-xl">
 						Parasol Finance is the first-ever community governed IDO platform built on Solana with the needs of both projects and investors alike.
 					</p>
 					<div class="flex justify-center mt-6 sm:justify-between">
-						<p class="text-gray-300 text-lg font-bold text-pink-500 mb-3 truncate">
+						<p class="text-gray-300 text-lg font-bold text-purple-500 mb-3 truncate">
 							Total Raised Funds:
 							$905,393.49
 						</p>
@@ -46,11 +52,13 @@
 <!--							<svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>-->
 <!--							Join the Waiting List-->
 <!--						</a>-->
-						<a href="https://app.parasol.finance/" class="flex items-center justify-center px-10 bg-pink-600 py-3 text-base font-medium rounded-full shadow-lg text-white bg-gradient-to-r from-purple-500 to-pink-600 hover:from-pink-600 hover:to-purple-500">
-							<svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
+						<NuxtLink to="/nft-store" class="flex items-center justify-center px-10 bg-purple-600 py-3 text-base font-medium rounded-full shadow-lg text-white bg-gradient-primary hover:from-pink-600 hover:to-purple-500">
+							<svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+<!--							<svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>-->
 <!--							Participate in Presale-->
-							Open Application
-						</a>
+<!--							Open Application-->
+							Order NFT Grade Now
+						</NuxtLink>
 						<button @click="joinCommunity" type="button" class="flex items-center justify-center px-7 py-3 text-base font-medium border border-white rounded-full shadow-lg text-white hover:to-purple-500">
 							Join The Community
 						</button>
@@ -58,7 +66,46 @@
 				</div>
 			</div>
 			<div class="mt-20 sm:mt-24 lg:mt-0 lg:col-span-6 hidden lg:flex justify-end">
-				<img class="bouncing" alt="bouncing-logo" style="width: 70%;" src="https://raw.githubusercontent.com/parasol-finance/white-paper/main/logo.png" />
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-full p-20 bouncing" style="position: absolute; width: 580px; top: 110px;" viewBox="0 0 545.936 628.168">
+					<defs>
+						<linearGradient id="linear-gradient" x1="1.204" y1="-0.074" x2="0.306" y2="1.04" gradientUnits="objectBoundingBox">
+							<stop offset="0" stop-color="#7939ff"/>
+							<stop offset="1" stop-color="#b064fe"/>
+						</linearGradient>
+					</defs>
+					<g id="Group_42" data-name="Group 42" transform="translate(-477.032 -435.916)">
+						<g id="Group_37" data-name="Group 37">
+							<path id="Path_16" data-name="Path 16" d="M837.3,661.2V591.957L656.885,487.781,484.476,587.094a14.827,14.827,0,0,0-7.444,12.84v60.7L656.885,557.024Z" fill="url(#linear-gradient)"/>
+							<path id="Path_17" data-name="Path 17" d="M869.892,786.964l59.961-35.586V537.214L757.443,437.9a14.823,14.823,0,0,0-14.827,0l-52.518,30.6L869.922,572.088Z" fill="url(#linear-gradient)"/>
+						</g>
+						<path id="Path_18" data-name="Path 18" d="M664.684,591.245,484.446,694.888a14.823,14.823,0,0,0-7.414,12.809v356.387h59.961V733.971L726.958,624.9Z" fill="url(#linear-gradient)"/>
+						<path id="Path_19" data-name="Path 19" d="M630.108,994.128V717.069L570.147,752v311.963h59.961Z" fill="url(#linear-gradient)"/>
+						<g id="Group_39" data-name="Group 39">
+							<g id="Group_38" data-name="Group 38">
+								<path id="Path_20" data-name="Path 20" d="M837.3,661.2V591.957L656.885,487.781,484.476,587.094a14.827,14.827,0,0,0-7.444,12.84v60.7L656.885,557.024Z" fill="url(#linear-gradient)"/>
+							</g>
+							<path id="Path_21" data-name="Path 21" d="M664.684,591.245,484.446,694.888a14.823,14.823,0,0,0-7.414,12.809v356.387h59.961V733.971L726.958,624.9Z" fill="url(#linear-gradient)"/>
+							<path id="Path_22" data-name="Path 22" d="M630.108,994.128V717.069L570.147,752v311.963h59.961Z" fill="url(#linear-gradient)"/>
+						</g>
+						<g id="Group_40" data-name="Group 40">
+							<path id="Path_23" data-name="Path 23" d="M842.551,902.615,1022.968,798.44V599.756a14.827,14.827,0,0,0-7.355-12.811l-52.577-30.632V763.537L782.62,867.712Z" fill="url(#linear-gradient)"/>
+							<path id="Path_24" data-name="Path 24" d="M656.885,833.491l.594,69.243,185.665,107.112,172.41-99.342a14.827,14.827,0,0,0,7.414-12.84V836.99L843.144,941.166Z" fill="url(#linear-gradient)"/>
+							<path id="Path_25" data-name="Path 25" d="M656.885,941.166v69.243l85.761,49.315a14.83,14.83,0,0,0,14.827,0l52.577-30.1Z" fill="url(#linear-gradient)"/>
+							<path id="Path_26" data-name="Path 26" d="M963.036,556.43V764.219L782.62,868.394l59.931,34.34,180.417-104.175V599.875a14.827,14.827,0,0,0-7.355-12.812Z" fill="url(#linear-gradient)"/>
+							<path id="Path_27" data-name="Path 27" d="M656.885,833.491l.594,69.243,185.665,107.675,172.44-99.876a14.828,14.828,0,0,0,7.384-12.841v-60.7L843.144,941.166Z" fill="url(#linear-gradient)"/>
+							<path id="Path_28" data-name="Path 28" d="M656.885,1010.409l85.761,49.315a14.83,14.83,0,0,0,14.827,0l52.577-30.1L656.974,941.166Z" fill="url(#linear-gradient)"/>
+						</g>
+						<g id="Group_41" data-name="Group 41">
+							<path id="Path_29" data-name="Path 29" d="M842.551,902.615,1022.968,798.44V599.756a14.827,14.827,0,0,0-7.355-12.811l-52.577-30.632V763.537L782.62,867.712Z" fill="url(#linear-gradient)"/>
+							<path id="Path_30" data-name="Path 30" d="M656.885,833.491l.594,69.243,185.665,107.112,172.41-99.342a14.827,14.827,0,0,0,7.414-12.84V836.99L843.144,941.166Z" fill="url(#linear-gradient)"/>
+							<path id="Path_31" data-name="Path 31" d="M656.885,941.166v69.243l85.761,49.315a14.83,14.83,0,0,0,14.827,0l52.577-30.1Z" fill="url(#linear-gradient)"/>
+							<path id="Path_32" data-name="Path 32" d="M963.036,556.43V764.219L782.62,868.394l59.931,34.34,180.417-104.175V599.875a14.827,14.827,0,0,0-7.355-12.812Z" fill="url(#linear-gradient)"/>
+							<path id="Path_33" data-name="Path 33" d="M656.885,833.491l.594,69.243,185.665,107.675,172.44-99.876a14.828,14.828,0,0,0,7.384-12.841v-60.7L843.144,941.166Z" fill="url(#linear-gradient)"/>
+							<path id="Path_34" data-name="Path 34" d="M656.885,1010.409l85.761,49.315a14.83,14.83,0,0,0,14.827,0l52.577-30.1L656.974,941.166Z" fill="url(#linear-gradient)"/>
+						</g>
+					</g>
+				</svg>
+				<!--				<img class="bouncing" alt="bouncing-logo" style="width: 70%;" src="https://raw.githubusercontent.com/parasol-finance/white-paper/main/logo.png" />-->
 			</div>
 		</div>
 	</section>
@@ -67,20 +114,9 @@
 <script>
 export default {
 	name: "Hero",
-	data() {
-		return {
-			totalParticipation: 0
-		}
-	},
-	async mounted() {
-		this.totalParticipation = (await this.getTotalParticipation()).value.uiAmount;
-	},
 	methods: {
 		joinCommunity: function() {
 			this.$root.$emit('joinCommunity');
-		},
-		toUsd: function (value) {
-			return value.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0 })
 		}
 	}
 }

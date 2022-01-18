@@ -1,7 +1,7 @@
 <template>
 	<section class="mt-5 mb-10 lg:mt-10 lg:mb-20">
 		<div class="mx-auto max-w-7xl px-5">
-			<div class="relative rounded-2xl px-6 py-10 bg-gradient-to-r from-purple-500 to-pink-500 overflow-hidden shadow-xl sm:px-12 sm:py-14">
+			<div class="relative rounded-2xl px-6 py-10 bg-gradient-primary overflow-hidden shadow-xl sm:px-12 sm:py-14">
 				<div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
 					<svg class="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360">
 						<path class="text-white text-opacity-10" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />

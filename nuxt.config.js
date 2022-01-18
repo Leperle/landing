@@ -1,9 +1,8 @@
 export default {
 	// Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-	ssr: process.env.NODE_ENV !== 'production',
-
-	// Target: https://go.nuxtjs.dev/config-target
 	target: 'static',
+
+	ssr: false,
 
 	generate: {
 		dir: 'public'
@@ -21,9 +20,9 @@ export default {
 			{name: 'twitter:image:src', content: 'https://parasol.finance/preview.png'},
 			{name: 'twitter:card', content: 'summary_large_image'},
 			{name: 'og:image', content: 'https://parasol.finance/preview.png'},
-			{name: 'theme-color', content: '#161921'},
-			{name: 'msapplication-navbutton-color', content: '#161921'},
-			{name: 'apple-mobile-web-app-status-bar-style', content: '#161921'},
+			{name: 'theme-color', content: '#7939FF'},
+			{name: 'msapplication-navbutton-color', content: '#954FFF'},
+			{name: 'apple-mobile-web-app-status-bar-style', content: '#954FFF'},
 			{name: 'apple-mobile-web-app-capable', content: 'yes'},
 			{ hid: 'description', name: 'description', content: 'Parasol Finance is the first-ever community governed IDO platform built on Solana with the needs of both projects and investors alike.' },
 			{ hid: 'keywords', name: 'keywords', content: 'parasol,parasol finance,PSOL,defi,investment,farming,staking,solana staking,solana,sol,crypto,cryptocurrency,bitcoin,ethereum,sol price,sol price prediction,solana price,ethereum killer,dogecoin,doge' }
@@ -43,8 +42,8 @@ export default {
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
-		{src: '~/plugins/particles.js', mode: 'client'},
 		{src: '~/plugins/web3.js', mode: 'client'},
+		{src: '~/plugins/countdown.js', mode: 'client'}
 	],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
