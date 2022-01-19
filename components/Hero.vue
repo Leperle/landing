@@ -52,13 +52,10 @@
 <!--							<svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>-->
 <!--							Join the Waiting List-->
 <!--						</a>-->
-						<NuxtLink to="/nft-store" class="flex items-center justify-center px-10 bg-purple-600 py-3 text-base font-medium rounded-full shadow-lg text-white bg-gradient-primary hover:from-pink-600 hover:to-purple-500">
+						<a href="https://raydium.io/swap/?from=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&to=Hmatmu1ktLbobSvim94mfpZmjL5iiyoM1zidtXJRAdLZ" target="_blank" class="flex items-center justify-center px-10 bg-purple-600 py-3 text-base font-medium rounded-full shadow-lg text-white bg-gradient-primary hover:from-pink-600 hover:to-purple-500">
 							<svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-<!--							<svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>-->
-<!--							Participate in Presale-->
-<!--							Open Application-->
-							Order NFT Grade Now
-						</NuxtLink>
+							Buy $PSOL on Raydium
+						</a>
 						<button @click="joinCommunity" type="button" class="flex items-center justify-center px-7 py-3 text-base font-medium border border-white rounded-full shadow-lg text-white hover:to-purple-500">
 							Join The Community
 						</button>
