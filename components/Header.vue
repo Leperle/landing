@@ -24,8 +24,8 @@
 					Apply for IDO
 				</a>
 				<a href="https://jup.ag/swap/USDC-PSOL" target="_blank" class="items-center px-4 flex py-2 shadow-xl bg-gradient-primary text-sm font-medium rounded-full text-white">
-					<LogoWhite />
-					Buy $PSOL on Jupiter
+					<LogoWhite class="h-4 w-4 mr-1" />
+					Buy Parasol ($PSOL)
 				</a>
 			</div>
 		</div>
