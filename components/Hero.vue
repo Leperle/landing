@@ -53,8 +53,8 @@
 <!--							Join the Waiting List-->
 <!--						</a>-->
 						<a href="https://jup.ag/swap/USDC-PSOL" target="_blank" class="flex items-center justify-center px-10 bg-purple-600 py-3 text-base font-medium rounded-full shadow-lg text-white bg-gradient-primary hover:from-pink-600 hover:to-purple-500">
-							<LogoWhite />
-							Buy $PSOL on Jupiter
+							<LogoWhite class="h-5 w-5 mr-2" />
+							Buy Parasol ($PSOL)
 						</a>
 						<button @click="joinCommunity" type="button" class="flex items-center justify-center px-7 py-3 text-base font-medium border border-white hover:bg-white hover:text-purple-600 rounded-full shadow-lg text-white hover:to-purple-500">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -1,5 +1,5 @@
 <template>
-	<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 401.101 461.518">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.101 461.518">
 		<g id="Group_42" data-name="Group 42" transform="translate(-477.032 -435.916)">
 			<g id="Group_37" data-name="Group 37" transform="translate(477.032 435.916)">
 				<path id="Path_16" data-name="Path 16" d="M741.725,615.192V564.32L609.171,487.781,482.5,560.747a10.893,10.893,0,0,0-5.469,9.434v44.6l132.139-76.124Z" transform="translate(-477.032 -449.676)" fill="#fff"/>

@@ -23,8 +23,8 @@
 				<a href="https://forms.gle/jypcaJgvPgrkYmRDA" class="font-medium text-white nav-link hover:text-gray-300">
 					Apply for IDO
 				</a>
-				<a href="https://jup.ag/swap/USDC-PSOL" target="_blank" class="items-center px-4 flex py-2 shadow-xl bg-gradient-primary text-sm font-medium rounded-full text-white">
-					<LogoWhite class="h-4 w-4 mr-1" />
+				<a href="https://jup.ag/swap/USDC-PSOL" target="_blank" class="items-center px-5 flex py-2 shadow-xl bg-gradient-primary text-sm font-medium rounded-full text-white">
+					<LogoWhite class="h-3 w-3 mr-1" />
 					Buy Parasol ($PSOL)
 				</a>
 			</div>
