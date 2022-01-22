@@ -25,7 +25,7 @@
 				<div class="relative z-10 max--w-7xl mx-auto">
 					<div class="mx-auto space-y-4 lg:max-w-12xl- lg:px-20 lg:grid lg:grid-cols-4 lg:gap-5 lg:space-y-0">
 						<div
-							class="flex mx-4 lg:mx-0 flex-col suce rounded-xl shadow-lg scale-125 bg-white bg-opacity-5 text-white overflow-hidden">
+							class="flex mx-4 lg:mx-0 flex-col rounded-xl shadow-lg scale-125 bg-white bg-opacity-5 text-white overflow-hidden">
 							<div class="p-5">
 								<video autoplay loop class="w-full rounded-lg mb-6">
 									<source src="/1.mp4" />
@@ -325,17 +325,4 @@ export default {
 </script>
 
 <style scoped>
-video {
-	object-fit: fill;
-	height: 350px;
-	width: 100%;
-}
-
-.suce:hover {
-//background-color: red !important;
-}
-
-img {
-	//filter: hue-rotate(13deg);
-}
 </style>
