@@ -25,7 +25,7 @@
 				<div class="relative z-10 max--w-7xl mx-auto">
 					<div class="mx-auto space-y-4 lg:max-w-12xl- lg:px-20 lg:grid lg:grid-cols-4 lg:gap-5 lg:space-y-0">
 						<div
-							class="flex flex-col suce rounded-xl shadow-lg scale-125 bg-white bg-opacity-5 text-white overflow-hidden">
+							class="flex mx-4 lg:mx-0 flex-col suce rounded-xl shadow-lg scale-125 bg-white bg-opacity-5 text-white overflow-hidden">
 							<div class="p-5">
 								<video autoplay loop class="w-full rounded-lg mb-6">
 									<source src="/1.mp4" />
@@ -95,7 +95,7 @@
 							</div>
 						</div>
 						<div
-							class="flex flex-col rounded-xl shadow-lg bg-white bg-opacity-5 text-white overflow-hidden">
+							class="flex mx-4 lg:mx-0 flex-col rounded-xl shadow-lg bg-white bg-opacity-5 text-white overflow-hidden">
 							<div class="p-5">
 								<video autoplay loop class="w-full rounded-lg mb-6">
 									<source src="/2.mp4" />
@@ -170,7 +170,7 @@
 							</div>
 						</div>
 						<div
-							class="flex flex-col rounded-xl shadow-lg bg-white bg-opacity-5 text-white overflow-hidden">
+							class="flex mx-4 lg:mx-0 flex-col rounded-xl shadow-lg bg-white bg-opacity-5 text-white overflow-hidden">
 							<div class="p-5">
 								<video autoplay loop class="w-full rounded-lg mb-6">
 									<source src="/3.mp4" />
@@ -243,7 +243,7 @@
 							</div>
 						</div>
 						<div
-							class="flex flex-col rounded-xl shadow-lg bg-white bg-opacity-5 text-white overflow-hidden">
+							class="flex mx-4 lg:mx-0 flex-col rounded-xl shadow-lg bg-white bg-opacity-5 text-white overflow-hidden">
 							<div class="p-5">
 								<video autoplay loop class="w-full rounded-lg mb-6">
 									<source src="/4.mp4" />
