@@ -28,8 +28,7 @@ export default {
 	data() {
 		return {
 			now: new Date(),
-			presaleDate: new Date("Wed, 21 Jan 2022 21:00:21 GMT"),
-			endPresaleDate: new Date("Wed, 21 Jan 2022 21:00:21 GMT"),
+			presaleDate: new Date("Tue, 1 Feb 2022 21:00:21 GMT"),
 			presaleTimeOffset: 0,
 		}
 	},
