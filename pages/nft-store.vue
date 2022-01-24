@@ -158,7 +158,9 @@ export default {
 	mounted() {
 		this.presaleTimeOffset = this.presaleDate - new Date();
 		this.participants = require('assets/participants.json');
-
+		if (this.$route.query.direct) {
+			this.preview = true;
+		}
 	},
 	methods: {
 		play() {
