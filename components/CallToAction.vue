@@ -11,16 +11,18 @@
 				<div class="relative">
 					<div class="text-center">
 						<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
-							Participate in Presale.
+							Parasol Finance is Unique
 						</h2>
-						<p class="mt-6 mx-auto max-w-2xl text-lg">
-							The key advantage as the ownership of Parasol tokens ($PSOL) gives a right of governance and voting on projects. Our governed platform will be an integral part of bringing new and existing projects and protocols into the Parasol ecosystem with the possibility to invest early.
-<!--							The launch of Parasol Finance will be split into some steps, the first is the presale, we advise you to read our roadmap above.-->
-							<a href="https://app.parasol.finance/presale" class="font-bold">
-								<span class="underline">Participate in Presale</span>
+						<div class="mt-6 mx-auto max-w-5xl text-lg">
+							<p>Parasol Finance adopting a unique and never before seen mechanism for our upcoming IDO launchpad.</p>
+							<p class="mb-4">
+								One of the first use cases we are currently planning with Parasol NFTs is that they will act as keys that unlock access to exclusive communities, events, and most importantly, IDO allocations. These NFTs will represent a user’s share of upcoming IDO sales and will be directly used to purchase IDO tokens based on the user's NFT.
+							</p>
+							<NuxtLink to="/nft-store" class="font-bold">
+								<span class="underline">Get NFT Access Key Now</span>
 								&rarr;
-							</a>
-						</p>
+							</NuxtLink>
+						</div>
 					</div>
 				</div>
 			</div>

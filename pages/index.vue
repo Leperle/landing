@@ -4,7 +4,7 @@
 		<Features />
 		<Roadmap />
 		<Listing />
-<!--		<CallToAction />-->
+		<CallToAction />
 	</div>
 </template>
 

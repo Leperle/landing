@@ -1,9 +1,9 @@
 <template>
 	<section v-if="preview" class="">
-		<div class="pt-12">
+		<div class="lg:pt-12">
 			<div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
 				<div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
-					<p class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+					<p class="text-2xl lg:text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
 						Choose Your NFT Access Key
 					</p>
 					<p class="text-xl text-gray-300">
@@ -12,8 +12,8 @@
 						   href="https://medium.com/@parasol-finance/parasol-finance-nfts-as-tiers-4dcfd48ca7e">Read
 							More.</a>
 					</p>
-					<NuxtLink to="/claim-voucher" class="flex justify-center items-center gap-2 text-3xl pt-6 font-extrabold text-purple-500">
-						<svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+					<NuxtLink to="/claim-voucher" class="flex justify-center items-center gap-2 text-lg lg:text-3xl pt-6 font-extrabold text-purple-500">
+						<svg class="w-5 lg:w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
 						Early Investor? Claim Your Voucher!
 					</NuxtLink>
 				</div>
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 	</section>
-	<section v-else class="countdown w-full flex flex-col gap-3 pb-12 items-center justify-center">
+	<section v-else class="countdown w-full flex flex-col gap-3 pb-12 items-center justify-center text-center">
 		<div class="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block" style="z-index: -1;">
 			<svg
 				class="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0"
@@ -56,38 +56,38 @@
 				<rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"/>
 			</svg>
 		</div>
-		<h1 class="text-5xl font-extrabold">
+		<h1 class="text-3xl lg:text-5xl font-extrabold">
 			<span
 				class="text-transparent bg-clip-text bg-gradient-primary leading-normal whitespace-nowrap inline-block">
 				Parasol Finance
 			</span>
 			<span class="text-white">| NFT Access Keys</span>
 		</h1>
-		<vue-countdown tag="div" class="flex gap-6 mb-3 justify-around items-center" :time="presaleTimeOffset"
+		<vue-countdown tag="div" class="flex gap-2 lg:gap-6 mb-3 justify-around text-center items-center" :time="presaleTimeOffset"
 					   :interval="100" v-slot="{ days, hours, minutes, seconds, milliseconds }">
 			<div class="flex flex-col text-center">
-				<span class="text-9xl font-extrabold">{{ days }}</span>
+				<span class="text-6xl lg:text-9xl font-extrabold">{{ days }}</span>
 				<span class="text-gray-200 text-xl text-center">Days</span>
 			</div>
-			<div class="text-9xl pt-3 font-extrabold text-gray-200 mb-12">:</div>
+			<div class="text-6xl lg:text-9xl pt-3 font-extrabold text-gray-200 mb-12">:</div>
 			<div class="flex flex-col">
-				<span class="text-9xl font-extrabold">{{ hours }}</span>
+				<span class="text-6xl lg:text-9xl font-extrabold">{{ hours }}</span>
 				<span class="text-gray-200 text-xl text-center">Hours</span>
 			</div>
-			<div class="text-9xl pt-3 font-extrabold text-gray-200 mb-12">:</div>
+			<div class="text-6xl lg:text-9xl pt-3 font-extrabold text-gray-200 mb-12">:</div>
 			<div class="flex flex-col">
-				<span class="text-9xl font-extrabold">{{ minutes }}</span>
+				<span class="text-6xl lg:text-9xl font-extrabold">{{ minutes }}</span>
 				<span class="text-gray-200 text-xl text-center">Minutes</span>
 			</div>
-			<div class="text-9xl pt-3 font-extrabold text-gray-200 mb-12">:</div>
+			<div class="text-6xl lg:text-9xl pt-3 font-extrabold text-gray-200 mb-12">:</div>
 			<div class="flex flex-col">
-				<span class="text-9xl font-extrabold">{{ seconds }}</span>
+				<span class="text-6xl lg:text-9xl font-extrabold">{{ seconds }}</span>
 				<span class="text-gray-200 text-xl text-center">Seconds</span>
 			</div>
 		</vue-countdown>
-		<p class="text-2xl font-light text-center">Parasol Finance is adopting a unique and never-before-seen<br/>mechanism
+		<p class="text-base lg:text-2xl font-light text-center">Parasol Finance is adopting a unique and never-before-seen<br/>mechanism
 			for our upcoming IDO launchpad.</p>
-		<div class="mt-10 flex gap-5 justify-center items-center">
+		<div class="mt-10 flex gap-5 flex-col lg:flex-row justify-center items-center">
 			<div class="rounded-md shadow">
 				<button @click="play"
 						class="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-full text-white text-white bg-gradient-primary hover:from-pink-600 hover:to-purple-500 md:py-4 md:text-lg md:px-10">
@@ -115,7 +115,7 @@ export default {
 	data() {
 		return {
 			participants: [],
-			preview: true,
+			preview: false,
 			now: new Date(),
 			presaleDate: new Date("Tue, 1 Feb 2022 21:00:21 GMT"),
 			presaleTimeOffset: 0,

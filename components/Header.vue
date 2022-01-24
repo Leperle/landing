@@ -11,22 +11,22 @@
 				</div>
 			</div>
 			<div class="hidden space-x-10 md:flex items-center md:ml-10">
-				<NuxtLink :to="{path: '/', hash: 'features'}" v-scroll-to="{el: '#features'}" class="font-medium text-white hover:text-gray-300">
-					About Parasol Finance
+				<NuxtLink to="/" exact-active-class="active" class="nav-link font-medium text-white hover:text-gray-300">
+					Overview
+				</NuxtLink>
+				<NuxtLink to="/nft-store" exact-active-class="active" :class="`${this.$router.name === '/claim-voucher' ? 'active' : ''} font-medium nav-link text-white hover:text-gray-300`">
+					NFT Access Key
 				</NuxtLink>
 				<NuxtLink :to="{path: '/', hash: 'roadmap'}" exact-active-class="active" v-scroll-to="{el: '#roadmap'}" class="font-medium nav-link text-white hover:text-gray-300">
 					Roadmap
 				</NuxtLink>
 				<a href="https://docs.parasol.finance" target="_blank" class="font-medium nav-link text-white hover:text-gray-300">
-					Read Docs.
+					Documentation
 				</a>
 				<a href="https://forms.gle/jypcaJgvPgrkYmRDA" class="font-medium text-white nav-link hover:text-gray-300">
 					Apply for IDO
 				</a>
-				<a href="https://jup.ag/swap/USDC-PSOL" target="_blank" class="items-center px-5 flex py-2 shadow-xl bg-gradient-primary text-sm font-medium rounded-full text-white">
-					<LogoWhite class="h-3 w-3 mr-1" />
-					Buy Parasol ($PSOL)
-				</a>
+				<ConnectWallet />
 			</div>
 		</div>
 	</header>
@@ -42,16 +42,9 @@ export default {
 </script>
 
 <style scoped>
-.full
-{
-	//background: #1d1520;
-	//padding: 1.75rem 5rem;
-	//box-shadow: 0 0 3rem #00000038;
-}
 .nav-link {
 	display: inline-block;
 	position: relative;
-	//color: #0087ca;
 }
 
 .nav-link:after {

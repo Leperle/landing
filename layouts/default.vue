@@ -1,6 +1,8 @@
 <template>
 	<div id="app">
 		<JoinCommunityModal />
+		<ThankYou />
+		<ThankYouVoucher />
 		<AnnounceBar />
 		<Header />
 		<main role="main">

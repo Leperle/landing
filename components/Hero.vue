@@ -5,7 +5,7 @@
 				<svg class="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
 					<defs>
 						<pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-							<rect x="0" y="0" width="4" height="4" class="text-indigo-900" fill="currentColor" />
+							<rect x="0" y="0" width="4" height="4" class="text-purple-900" fill="currentColor" />
 						</pattern>
 					</defs>
 					<rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
@@ -13,7 +13,7 @@
 				<svg class="absolute top-full transform -translate-y-1/3 -translate-x-1/3 xl:-translate-y-1/2" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
 					<defs>
 						<pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-							<rect x="0" y="0" width="4" height="4" class="text-indigo-900 text-opacity-60" fill="currentColor" />
+							<rect x="0" y="0" width="4" height="4" class="text-purple-900 text-opacity-60" fill="currentColor" />
 						</pattern>
 					</defs>
 					<rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
@@ -38,20 +38,11 @@
 						Parasol Finance is the first-ever community governed IDO platform built on Solana with the needs of both projects and investors alike.
 					</p>
 					<div class="flex justify-center mt-6 sm:justify-between">
-						<p class="text-gray-300 text-lg font-bold text-purple-500 mb-3 truncate">
-							Total Raised Funds:
-							$905,393.49
+						<p class="text-yellow-300 text-lg font-bold mb-3 truncate">
+							Buy your NFT access key now! (they are in limited quantities) 🎉
 						</p>
 					</div>
-<!--					<div class="w-full bg-gray-400 mb-6 rounded-full h-2.5">-->
-<!--						<div class="bg-gradient-to-r from-purple-500 to-pink-600 h-2.5 rounded-full" :style="`width: ${this.getParticipationProgress()}%`"></div>-->
-<!--					</div>-->
-<!--					<p class="text-sm text-gray-300">We are curretly running our presale bla bla you can participate.</p>-->
 					<div class="mt-8 grid lg:flex gap-3 grid-cols-1 lg:grid-cols-2 justify-start">
-<!--						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbnmssmtnA1cy_YTGLMuT7CZ99-p7OZ5yeUz1XUeos5mPIsQ/viewform?usp=sf_link" target="_blank" class="flex items-center justify-center px-7 bg-pink-600 py-3 text-base font-medium rounded-full shadow-lg text-white bg-gradient-to-r from-purple-500 to-pink-600 hover:from-pink-600 hover:to-purple-500">-->
-<!--							<svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>-->
-<!--							Join the Waiting List-->
-<!--						</a>-->
 						<a href="https://jup.ag/swap/USDC-PSOL" target="_blank" class="flex items-center justify-center px-10 bg-purple-600 py-3 text-base font-medium rounded-full shadow-lg text-white bg-gradient-primary hover:from-pink-600 hover:to-purple-500">
 							<LogoWhite class="h-5 w-5 mr-2" />
 							Buy Parasol ($PSOL)
