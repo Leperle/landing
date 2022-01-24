@@ -39,7 +39,7 @@
 					</p>
 					<div class="flex justify-center mt-6 sm:justify-between">
 						<p class="text-yellow-300 text-lg font-bold mb-3 truncate">
-							Buy your NFT access key now! (they are in limited quantities) 🎉
+							Buy your NFT access key now! (limited quantity) 🎉
 						</p>
 					</div>
 					<div class="mt-8 grid lg:flex gap-3 grid-cols-1 lg:grid-cols-2 justify-start">

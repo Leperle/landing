@@ -41,7 +41,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex-1 flex flex-col justify-between px-8 pb-8">
+		<div class="flex-1 flex flex-col justify-between px-8 pb-8 gap-y-4">
 			<ul class="space-y-4" role="list">
 				<li class="flex items-start">
 					<div class="flex-shrink-0">

@@ -38,7 +38,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="mt-12 grid-cols-2 hidden lg:grid gap-8 xl:mt-0 xl:col-span-2 text-right">
+			<div class="mt-12 grid-cols-2 hidden lg:grid gap-8 xl:mt-0 lg:col-span-2 xl:col-span-2 text-right">
 				<div class="md:grid md:grid-cols-2 md:gap-8">
 					<div>
 						<h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">About Parasol</h3>
@@ -60,12 +60,11 @@
 					<div class="mt-12 md:mt-0">
 						<h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Useful Links</h3>
 						<ul role="list" class="mt-4 space-y-4">
-
 							<li>
 								<a href="https://forms.gle/jypcaJgvPgrkYmRDA" target="_blank" class="text-base text-gray-400 hover:text-gray-300">Apply for IDO</a>
 							</li>
 							<li>
-								<NuxtLink :to="{path: '/', hash: 'features'}" v-scroll-to="{el: '#features'}" class="text-base text-gray-400 hover:text-gray-300">Features</NuxtLink>
+								<a href="/parasol-finance-whitepaper-v1.3.pdf" class="text-base text-gray-400 hover:text-gray-300">White Paper</a>
 							</li>
 							<li>
 								<NuxtLink :to="{path: '/', hash: 'roadmap'}" v-scroll-to="{el: '#roadmap'}" class="text-base text-gray-400 hover:text-gray-300">Roadmap</NuxtLink>

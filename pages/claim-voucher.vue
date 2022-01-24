@@ -37,12 +37,16 @@
 			</div>
 			<div v-else>
 				<img class="mx-auto max-w-sm px-5" src="https://i.imgur.com/4Oxnfjq.png" alt="bonus" />
-				<button v-if="this.$wallet.isConnected" @click="claim" type="button" class="inline-flex text-xl mt-5 items-center gap-x-1 px-6 py-3 border border-transparent font-medium rounded-md shadow-sm text-white bg-gradient-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
-					<span v-if="loading">Checking Blockchain</span>
+				<button v-if="this.$wallet.isConnected" @click="claim" type="button" class="inline-flex text-xl mt-7 items-center gap-x-1 px-6 py-3 border border-transparent font-medium rounded-md shadow-sm text-white bg-gradient-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+					<svg v-if="loading" class="animate-spin mr-1 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+						<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+						<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+					</svg>
+					<svg v-else class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+					<span v-if="loading">Processing...</span>
 					<span v-else>Claim My Voucher</span>
 				</button>
-				<button v-else @click="connectWallet" type="button" class="inline-flex text-xl items-center mt-5 gap-x-1 px-6 py-3 border border-transparent font-medium rounded-md shadow-sm text-white bg-gradient-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+				<button v-else @click="connectWallet" type="button" class="inline-flex text-xl items-center mt-7 gap-x-1 px-6 py-3 border border-transparent font-medium rounded-md shadow-sm text-white bg-gradient-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 					<PhantomWalletLogo class="h-5 w-5 mr-2"/>
 					<span>Connect Phantom</span>
 				</button>
