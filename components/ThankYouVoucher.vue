@@ -16,19 +16,13 @@
 					</div>
 					<div class="mt-3 text-center sm:mt-5">
 						<h3 class="text-2xl leading-6 font-medium text-gray-900" id="modal-title">
-							Welcome Onboard!
+							You Got The Ticket!
 						</h3>
 						<div class="mt-2">
 							<p class="text-gray-500">
-								We have received your $PSOL, you will receive your NFTiers in a while, in the meantime you can join us on Telegram!
+								You now have the voucher, you can go back to the NFT store page to buy your access key.
 							</p>
 						</div>
-<!--						<div class="mt-3">-->
-<!--							<a href="https://t.me/parasolfinance" target="_blank" class="inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-gradient-primary text-base font-medium text-white sm:text-sm">-->
-<!--								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 24 24"><path style="fill: white;" d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg>-->
-<!--								Join Parasol Finance on Telegram-->
-<!--							</a>-->
-<!--						</div>-->
 					</div>
 				</div>
 			</div>
@@ -38,14 +32,14 @@
 
 <script>
 export default {
-	name: "ThankYou",
+	name: "ThankYouVoucher",
 	data() {
 		return {
 			shown: false
 		}
 	},
 	mounted() {
-		this.$root.$on('thanks', () => this.shown = !this.shown);
+		this.$root.$on('thanks-voucher', () => this.shown = !this.shown);
 	}
 }
 </script>

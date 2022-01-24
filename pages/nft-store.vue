@@ -12,11 +12,10 @@
 						   href="https://medium.com/@parasol-finance/parasol-finance-nfts-as-tiers-4dcfd48ca7e">Read
 							More.</a>
 					</p>
-					<NuxtLink to="/claim-bonus" class="flex justify-center items-center gap-2 text-3xl pt-6 font-extrabold text-purple-500">
+					<NuxtLink to="/claim-voucher" class="flex justify-center items-center gap-2 text-3xl pt-6 font-extrabold text-purple-500">
 						<svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
-						Early Investor? Claim Bonus!
+						Early Investor? Claim Your Voucher!
 					</NuxtLink>
-<!--					<p class="text-gray-300 text-sm">If you hold PSOL since the beginning you might be eligible for a bonus!</p>-->
 				</div>
 			</div>
 		</div>
@@ -25,8 +24,8 @@
 				<div class="relative z-10 max--w-7xl mx-auto">
 					<div class="mx-auto space-y-4 lg:max-w-12xl- lg:px-20 lg:grid lg:grid-cols-4 lg:gap-5 lg:space-y-0">
 						<NftCard v-for="nft in nfts" :video="nft.video" :name="nft.name" :price="nft.price"
-								 :vestingPeriod="nft.vestingPeriod"
-								 :vestingFees="nft.vestingFees" :key="nft.name" :earlyInvestor="isEarlyInvestor()" />
+								 :vestingPeriod="nft.vestingPeriod" :hint="nft.hint"
+								 :vestingFees="nft.vestingFees" :key="nft.name" :bonusLevel="getBonusLevel()" />
 					</div>
 				</div>
 			</div>
@@ -92,11 +91,7 @@
 			<div class="rounded-md shadow">
 				<button @click="play"
 						class="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-full text-white text-white bg-gradient-primary hover:from-pink-600 hover:to-purple-500 md:py-4 md:text-lg md:px-10">
-					<svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-						 xmlns="http://www.w3.org/2000/svg">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-							  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-					</svg>
+					<svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
 					Compare NFT Access Keys
 				</button>
 			</div>
@@ -120,13 +115,14 @@ export default {
 	data() {
 		return {
 			participants: [],
-			preview: false,
+			preview: true,
 			now: new Date(),
 			presaleDate: new Date("Tue, 1 Feb 2022 21:00:21 GMT"),
 			presaleTimeOffset: 0,
 			nfts: [
 				{
 					video: require('assets/videos/1.mp4'),
+					hint: 'Unlimited',
 					name: 'Dreamer',
 					price: 210,
 					vestingPeriod: 12,
@@ -134,6 +130,7 @@ export default {
 				},
 				{
 					video: require('assets/videos/2.mp4'),
+					hint: 'Unlimited',
 					name: 'Rider',
 					price: 2100,
 					vestingPeriod: 8,
@@ -141,6 +138,7 @@ export default {
 				},
 				{
 					video: require('assets/videos/3.mp4'),
+					hint: 'Only 500',
 					name: 'Chiller',
 					price: 21000,
 					vestingPeriod: 6,
@@ -148,6 +146,7 @@ export default {
 				},
 				{
 					video: require('assets/videos/4.mp4'),
+					hint: 'Only 100',
 					name: 'MoonWalker',
 					price: 210000,
 					vestingPeriod: 4,
@@ -159,14 +158,28 @@ export default {
 	mounted() {
 		this.presaleTimeOffset = this.presaleDate - new Date();
 		this.participants = require('assets/participants.json');
+
 	},
 	methods: {
 		play() {
 			this.preview = !this.preview;
 		},
 		isEarlyInvestor: function () {
-			return this.$wallet.isConnected && this.participants.includes(this.$wallet.publicKey)
+			return this.$wallet.isConnected && this.participants.hasOwnProperty(this.$wallet.publicKey)
 		},
+		haveVoucher() {
+			return window.localStorage.getItem('voucher') !== null;
+		},
+		getBonusLevel() {
+			let bonusLevel = 0;
+			if (this.haveVoucher()) {
+				bonusLevel++;
+			}
+			if (this.isEarlyInvestor()) {
+				bonusLevel++;
+			}
+			return bonusLevel;
+		}
 	}
 }
 </script>

@@ -15,8 +15,8 @@ export default {
 			lang: 'en'
 		},
 		meta: [
-			{ charset: 'utf-8' },
-			{ name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=0' },
+  			{charset: 'utf-8'},
+			{name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=0'},
 			{name: 'twitter:image:src', content: 'https://parasol.finance/preview.png'},
 			{name: 'twitter:card', content: 'summary_large_image'},
 			{name: 'og:image', content: 'https://parasol.finance/preview.png'},
@@ -24,11 +24,23 @@ export default {
 			{name: 'msapplication-navbutton-color', content: '#954FFF'},
 			{name: 'apple-mobile-web-app-status-bar-style', content: '#954FFF'},
 			{name: 'apple-mobile-web-app-capable', content: 'yes'},
-			{ hid: 'description', name: 'description', content: 'Parasol Finance is the first-ever community governed IDO platform built on Solana with the needs of both projects and investors alike.' },
-			{ hid: 'keywords', name: 'keywords', content: 'parasol,parasol finance,PSOL,defi,investment,farming,staking,solana staking,solana,sol,crypto,cryptocurrency,bitcoin,ethereum,sol price,sol price prediction,solana price,ethereum killer,dogecoin,doge' }
+			{
+				hid: 'description',
+				name: 'description',
+				content: 'Parasol Finance is the first-ever community governed IDO platform built on Solana with the needs of both projects and investors alike.'
+			},
+			{
+				hid: 'keywords',
+				name: 'keywords',
+				content: 'parasol,parasol finance,PSOL,defi,investment,farming,staking,solana staking,solana,sol,crypto,cryptocurrency,bitcoin,ethereum,sol price,sol price prediction,solana price,ethereum killer,dogecoin,doge'
+			}
 		],
 		link: [
-			{ rel: 'icon', type: 'image/svg', href: '/favicon.svg' }
+			{rel: 'icon', type: 'image/svg', href: '/favicon.svg'},
+			{rel: 'prefetch', as: 'video', href: '~/assets/videos/1.mp4'},
+			{rel: 'prefetch', as: 'video', href: '~/assets/videos/2.mp4'},
+			{rel: 'prefetch', as: 'video', href: '~/assets/videos/3.mp4'},
+			{rel: 'prefetch', as: 'video', href: '~/assets/videos/4.mp4'},
 		],
 		script: [
 			{src: 'https://www.googletagmanager.com/gtag/js?id=G-6VTVXVGNCD', body: true}
@@ -82,9 +94,9 @@ export default {
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
+		'@nuxtjs/axios'
 	],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
-	build: {
-	}
+	build: {}
 }

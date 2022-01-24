@@ -1,6 +1,5 @@
 <template>
 	<button v-if="this.$wallet.isConnected" @click="order" class="flex items-center w-full uppercase justify-center mt-5 px-5 py-3 text-base font-medium rounded-md bg-gradient-primary text-white">
-<!--		Buy It For {{ amount.toLocaleString('en-US', {minimumFractionDigits: 0}) }} $PSOL-->
 		<SmallCountdown />
 	</button>
 	<button v-else @click="connectWallet"
