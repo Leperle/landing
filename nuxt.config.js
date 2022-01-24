@@ -82,8 +82,8 @@ export default {
 		manifest: {
 			name: 'Parasol Finance',
 			lang: 'en',
-			background_color: "#161921",
-			theme_color: "#161921",
+ 			background_color: "#7939FF",
+			theme_color: "#7939FF",
 			useWebmanifestExtension: false
 		}
 	},

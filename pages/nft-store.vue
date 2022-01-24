@@ -138,7 +138,7 @@ export default {
 				},
 				{
 					video: require('assets/videos/3.mp4'),
-					hint: 'Only 500',
+					hint: 'Only 100',
 					name: 'Chiller',
 					price: 21000,
 					vestingPeriod: 6,
@@ -146,7 +146,7 @@ export default {
 				},
 				{
 					video: require('assets/videos/4.mp4'),
-					hint: 'Only 100',
+					hint: 'Only 10',
 					name: 'MoonWalker',
 					price: 210000,
 					vestingPeriod: 4,
