@@ -120,7 +120,7 @@ export default {
 	data() {
 		return {
 			participants: [],
-			preview: true,
+			preview: false,
 			now: new Date(),
 			presaleDate: new Date("Tue, 1 Feb 2022 21:00:21 GMT"),
 			presaleTimeOffset: 0,
