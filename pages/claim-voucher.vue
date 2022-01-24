@@ -81,7 +81,9 @@ export default {
 					this.$root.$emit('thanks-voucher');
 				}
 				else {
-					alert("You don't have any voucher.");
+					alert("Did you do yield farming of PSOL on Cropper Finance ? claim your voucher manually.\n" +
+						"\n" +
+						"Complete this form: https://forms.gle/QrPwX9gsQD3jUgsX6");
 				}
 			}
 		},
