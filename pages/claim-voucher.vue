@@ -42,7 +42,7 @@
 					<span v-if="loading">Checking Blockchain</span>
 					<span v-else>Claim My Voucher</span>
 				</button>
-				<button v-else @click="connectWallet" type="button" class="inline-flex text-xl items-center gap-x-1 px-6 py-3 border border-transparent font-medium rounded-md shadow-sm text-white bg-gradient-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+				<button v-else @click="connectWallet" type="button" class="inline-flex text-xl items-center mt-5 gap-x-1 px-6 py-3 border border-transparent font-medium rounded-md shadow-sm text-white bg-gradient-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 					<PhantomWalletLogo class="h-5 w-5 mr-2"/>
 					<span>Connect Phantom</span>
 				</button>
