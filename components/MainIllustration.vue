@@ -1,11 +1,10 @@
 <template>
 	<div class="w-full relative">
-		<img class="absolute w-full bounce1" alt="l" src="~/assets/images/Logo.png" />
-		<img class="absolute w-full bounce2 spin" alt="l" src="~/assets/images/Logo_P.png" />
-		<img class="absolute w-full bounce3 spin2" alt="l" src="~/assets/images/Logo_Q.png" />
+		<img class="absolute w-full img_logo" alt="l" src="~/assets/images/Logo.png" />
+		<img class="absolute w-full img_psol" alt="l" src="~/assets/images/Logo_P.png" />
+		<img class="absolute w-full img_token" alt="l" src="~/assets/images/Logo_Q_.png" />
  	</div>
 </template>
-
 <script>
 export default {
 	name: "MainIllustration"
@@ -15,85 +14,72 @@ export default {
 <style scoped>
 div
 {
-	margin-top: -30px;
+	margin: -50px -100px 0px 0px;
+    position: relative;
 }
 
-.bounce1
+.img_logo
 {
-	animation: float 15s ease-in-out infinite;
+	animation: logo 15s linear infinite;
+	z-index:1;
 }
 
-.bounce2
+.img_psol
 {
-	animation: float2 5s ease-in-out infinite;
+	animation: psol 20s linear infinite;
+	z-index:0;
 }
 
-.bounce3
+.img_token
 {
-	animation: float3 10s ease-in-out infinite;
+	animation: token 15s linear infinite;
+	z-index:2;
 }
 
-.spin
-{
-	animation: spin 421s linear infinite;
+
+@keyframes logo {
+  0% {
+    transform: rotate(0deg) translateY(-20px) rotate(0deg) scale(1);
+    filter: brightness(100%);
+  }
+  50% {
+    transform: rotate(0deg) translateY(-10px) rotate(0deg) scale(1);
+    filter: brightness(110%);
+  }
+  100% {
+    transform: rotate(0deg) translateY(-20px) rotate(0deg) scale(1);
+    filter: brightness(100%);
+  }
 }
 
-.spin2
-{
-	animation: spin 421s linear infinite;
-	animation-delay: 2s;
+@keyframes psol {
+  0% {
+    transform: rotate(0deg) translateX(5px) rotate(0deg) scale(0.95);
+    filter: blur(1px);
+  }
+  50% {
+    transform: rotate(180deg) translateX(10px) rotate(-180deg) scale(1);
+    filter: blur(1px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(5px) rotate(-360deg) scale(0.95);
+    filter: blur(1px);
+  }
 }
 
-@keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-
-	50% {
-		transform: translatey(-1rem);
-	}
-
-	100% {
-		transform: translatey(0px);
-	}
-}
-
-@keyframes float2 {
-	0% {
-		transform: translatey(-10px);
-	}
-
-	50% {
-		transform: translatey(0);
-	}
-
-	100% {
-		transform: translatey(-10px);
-	}
-}
-
-@keyframes float3 {
-	0% {
-		transform: translatey(10px);
-	}
-
-	50% {
-		transform: translatey(0);
-	}
-
-	100% {
-		transform: translatey(10px);
-	}
-}
-
-@keyframes spin {
-	0% {
-		transform: rotate(0);
-	}
-
-	100% {
-		transform: rotate(360deg);
-	}
+@keyframes token {
+  0% {
+    transform: rotate(0deg) translateX(5px) rotate(0deg) scale(0.95);
+    filter: brightness(100%);
+  }
+  50% {
+    transform: rotate(180deg) translateX(10px) rotate(-180deg) scale(1);
+    filter: brightness(110%);
+  }
+  100% {
+    transform: rotate(360deg) translateX(5px) rotate(-360deg) scale(0.95);
+    filter: brightness(100%);
+  }
 }
 
 </style>
